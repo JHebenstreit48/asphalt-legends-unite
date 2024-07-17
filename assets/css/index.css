@@ -27,11 +27,13 @@ nav a {
     align-items: center;
 	color: rgb(21, 201, 232);
 	text-decoration: none;
-	padding: 10px 30px;
+	padding: 10px;
 	border: 3px solid rgb(11, 7, 134);
 	background-color: black;
 	box-shadow: 0 0 7px 4px rgb(223, 190, 7);
 	border-radius: 8px;
+    max-width: 100%;
+    width: 95px;
 }
 
 p {
