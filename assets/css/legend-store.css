@@ -1,5 +1,5 @@
 html {
-    background-color: #52085e;
+	background-color: #52085e;
 }
 
 body {
@@ -7,10 +7,44 @@ body {
 }
 
 h1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+
+nav {
+	display: flex;
+	gap: 20px;
+	align-items: center;
+	justify-content: center;
+	margin: 8px auto 50px auto;
+}
+
+nav a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: rgb(21, 201, 232);
+	text-decoration: none;
+	padding: 10px 20px;
+	border: 3px solid rgb(11, 7, 134);
+	background-color: black;
+	box-shadow: 0 0 7px 4px rgb(223, 190, 7);
+	border-radius: 8px;
+}
+
+form {
+	display: flex;
+}
+
+.search {
+	display: flex;
+	max-width: 100%;
+	justify-content: flex-end;
+	right: 0;
+	position: sticky;
+	margin-right: 50px;
 }
 
 table {
@@ -18,26 +52,24 @@ table {
 	margin: 60px auto 80px auto;
 	border-spacing: 0;
 	border-collapse: collapse;
-    min-width: 80%;
+	min-width: 80%;
 	max-width: 75%;
 	box-shadow: 0 0 20px 14px rgb(223, 190, 7);
-    
-}
-.table-header {
-	color: rgb(21, 201, 232);
-    background-color: black;
-	text-align: center;
-	padding: 15px 80px 20px 80px;
-	font-size:185%;
-	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.table-header {
+	color: rgb(21, 201, 232);
+	background-color: black;
+	text-align: center;
+	padding: 15px 80px 20px 80px;
+	font-size: 185%;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
 td {
 	text-align: center;
 	color: rgb(255, 255, 255);
 	border: 1px solid rgb(204, 19, 255);
 	padding: 15px 15px 10px 15px;
-    text-wrap: wrap;
+	text-wrap: wrap;
 }
-
