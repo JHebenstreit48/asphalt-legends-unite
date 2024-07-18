@@ -74,7 +74,7 @@ td {
 
 .car-name a {
 	
-	color: white;
+	color: rgb(24, 189, 249);
 	text-decoration: none;
 	max-width: calc(100%-45);
 }
