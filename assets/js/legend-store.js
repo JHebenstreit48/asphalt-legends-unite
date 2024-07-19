@@ -1,3 +1,19 @@
+//make a document fragment or some sort of element
+//process through the data
+//everytime you go through a for loop you keep adding to DOM and HTML file
+//for each iteration you are going to place the data
+//every time you invoke or append something to a document
+//array.prototype.reduce
+
+//document.
+//iterate
+//for loop
+
+
+//for int
+//
+
+
 const legendStore = [{
     manufacturer: "BMW",
     model: "Z4 LCI E89",
@@ -24,7 +40,7 @@ const legendStore = [{
     bp_3_price: 67000,
     bp_4_price: 84000,
     bp_5_price: 101000,
-    total: this.bp_1_price + this.bp_2_price + this.bp_3_price + this.bp_4_price + this.bp_5_price  
+    total: this.bp_1_price + this.bp_2_price + this.bp_3_price + this.bp_4_price + this.bp_5_price
 }]
 
 function searchManufacturer(car) {
