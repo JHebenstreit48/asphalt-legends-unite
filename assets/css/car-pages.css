@@ -1,0 +1,9 @@
+.car-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: calc(100%-48);
+    width: 35%;
+    padding: 15px;
+    margin: 65px auto;
+}
