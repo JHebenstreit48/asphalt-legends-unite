@@ -1,0 +1,46 @@
+.garage-levels {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-heading {
+    color:  rgb(21, 201, 232);
+    font-size: 40px;
+    margin: 15px 40px;
+}
+
+.sub-heading {
+    justify-content: left;
+    margin: 10px 80px;
+    color: rgb(223, 190, 7)
+}
+
+.car-images-container {
+    display: flex;
+    align-items: center;
+    margin: 10px auto;
+    max-width: 100%;
+}
+
+.car-images {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 100%;
+    width: 15%;
+    margin: 6px 9px;
+}
+
+ul {
+    text-align: center;
+}
+
+
+.cars {
+    display: inline;
+    color: white;
+    margin: 10px 40px;
+}
+
+
+
+
