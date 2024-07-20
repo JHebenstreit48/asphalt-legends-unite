@@ -4,14 +4,19 @@
 }
 
 .main-heading {
-    color:  rgb(21, 201, 232);
+    color: rgb(21, 201, 232);
     font-size: 40px;
-    margin: 15px 40px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 30px;
 }
 
 .sub-heading {
     justify-content: left;
-    margin: 10px 80px;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 35px;
+
     color: rgb(223, 190, 7)
 }
 
@@ -19,13 +24,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10px auto;
+    margin: 0 auto;
     max-width: 100%;
 }
 
 div .car-images {
     margin: 0 10px;
     width: 350px;
+    margin-bottom: 12px;
 }
 
 .car-images {
@@ -33,16 +39,144 @@ div .car-images {
     justify-content: center;
     align-items: center;
     max-width: 100%;
+    
 }
 
 .car-images-caption {
     display: flex;
     justify-content: center;
-    align-items: center;
     color: white;
     font-size: 20px;
+    border: 3px solid rgb(11, 7, 134);
+    background-image: linear-gradient(to bottom, #25034b 31%, #37097E 69%, #3B0C9D 86%, #3C0B8F 117%, #490DB2);
+    box-shadow: 0 0 7px 4px rgb(223, 190, 7);
+    border-radius: 8px;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
 }
 
+@media screen and (max-width: 1463px) {
 
+    .main-heading {
+        margin-top: 22px;
+    }
+    .car-images-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 130%;
+        flex-flow: row wrap;
+        width: 76%;
+        margin-bottom: 10px;
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+    /* div .car-images {
+        flex-flow: row;
+        width: 60%;
+    } */
+    .car-images {
+        max-width: 100%;
+    }
+    .car-images-caption {
+        margin-bottom: 40px;
+    }
+}
 
+@media screen and (max-width: 988px) {
+    .garage-levels {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .sub-heading {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 22px;
+        margin-bottom: 37px;
+        justify-content: center;
+        align-items: center;
+    }
+    .car-images-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        flex-flow: column wrap;
+        margin-bottom: 10px;
+    }
 
+    div .car-images {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    .car-images {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        ;
+    }
+
+    .car-images-caption {
+        font-size: 28px;
+        margin-top: 15px;
+        margin-bottom: 125px;
+        border: 3px solid rgb(11, 7, 134);
+        background-image: linear-gradient(to bottom, #25034b 31%, #37097E 69%, #3B0C9D 86%, #3C0B8F 117%, #490DB2);
+        box-shadow: 0 0 7px 4px rgb(223, 190, 7);
+        border-radius: 8px;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .garage-levels {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+    }
+
+    .car-images-container {
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
+        flex-flow: column wrap;
+    }
+
+    div .car-images {
+        max-width: 100%;
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .car-images {
+        display: flex;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 553px) {
+    .car-images-caption {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 339px) {
+    .car-images-caption {
+        text-align: center;
+        margin-bottom: 70px;
+    }
+}
