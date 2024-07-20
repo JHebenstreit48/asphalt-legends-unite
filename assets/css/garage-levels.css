@@ -30,7 +30,7 @@
 
 div .car-images {
     margin: 0 10px;
-    width: 350px;
+    width: 390px;
     margin-bottom: 12px;
 }
 
@@ -39,6 +39,7 @@ div .car-images {
     justify-content: center;
     align-items: center;
     max-width: 100%;
+    width: 95%;
     
 }
 
@@ -51,7 +52,8 @@ div .car-images {
     background-image: linear-gradient(to bottom, #25034b 31%, #37097E 69%, #3B0C9D 86%, #3C0B8F 117%, #490DB2);
     box-shadow: 0 0 7px 4px rgb(223, 190, 7);
     border-radius: 8px;
-    width: 75%;
+    width: 77%;
+    padding: 10px 15px;
     margin: 0 auto;
     text-align: center;
 }
