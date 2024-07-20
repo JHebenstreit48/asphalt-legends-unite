@@ -176,9 +176,31 @@ div .car-images {
     }
 }
 
-@media screen and (max-width: 339px) {
+@media screen and (max-width: 464px) {
+    .main-heading {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .sub-heading {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 15px auto;
+    }
+    .car-images-container {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 0;
+    }
+    div .car-images {
+        max-width: 100%;
+        margin: 0 auto;
+        width: 90%;
+    }
     .car-images-caption {
-        text-align: center;
+        margin-top: 10px;
         margin-bottom: 70px;
     }
 }

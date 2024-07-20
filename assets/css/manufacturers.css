@@ -22,9 +22,10 @@ h2 {
 }
 
 ul {
-    margin-top: 0;
-    margin-bottom: 0;
+    display: flex;
+    margin: 15px ;
     text-decoration: none;
+    flex-direction: column;
 }
 
 ul li {
@@ -35,4 +36,23 @@ ul li {
 
 ul li p {
     margin-top: 0;
+}
+
+@media screen and (max-width: 464px) {
+    #brand-alphabetical {
+        margin: 0 auto;
+        flex-flow: row wrap;
+        width: 90%;
+    }
+    ul {
+        margin: 0 auto;
+        padding: 0;
+    }
+    ul li {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    ul li p {
+        margin: 15px auto;
+    }
 }

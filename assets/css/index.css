@@ -90,3 +90,15 @@ h1 {
         width: 77%;
     }
 }
+@media screen and (max-width: 464px) {
+    #main-nav {
+        font-family: "Cinzel Decorative", serif;
+        font-weight: 700;
+        font-style: normal;
+        max-width: 100%;
+    }
+    #main-nav a {
+        width: 76px;
+    }
+
+}
