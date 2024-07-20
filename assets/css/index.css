@@ -3,7 +3,7 @@ html {
     background-image: linear-gradient(to bottom, #25034b 1%, #37097E 42%, #3B0C9D 94%, #3C0B8F 97%, #490DB2 108%, #6212F1 159%);
     background-size: cover;
     background-attachment: fixed;
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 h1 {
@@ -18,10 +18,10 @@ h1 {
 
 #main-nav {
     display: flex;
-	gap: 22px;
+    gap: 22px;
     align-items: center;
-	justify-content: center;
-	margin: 8px auto 50px auto;
+    justify-content: center;
+    margin: 8px auto 50px auto;
     font-family: "Cinzel Decorative", serif;
     font-weight: 700;
     font-style: normal;
@@ -31,16 +31,62 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-	color: rgb(21, 201, 232);
-	text-decoration: none;
-	padding: 15px 20px;
+    color: rgb(21, 201, 232);
+    text-decoration: none;
+    padding: 15px 20px;
     flex-wrap: nowrap;
-	border: 3px solid rgb(11, 7, 134);
-	background-color: black;
-	box-shadow: 0 0 7px 4px rgb(223, 190, 7);
-	border-radius: 8px;
+    border: 3px solid rgb(11, 7, 134);
+    box-shadow: 0 0 7px 4px rgb(223, 190, 7);
+    border-radius: 8px;
     max-width: 220px;
     width: 140px;
     text-shadow: 2px 3px 3px #45217C;
     background-image: linear-gradient(to bottom, #25034b 31%, #37097E 69%, #3B0C9D 86%, #3C0B8F 117%, #490DB2 108%, #6212F1 159%);
+}
+
+@media screen and (max-width: 988px) {
+    h1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #main-nav {
+        max-width: 150%;
+        width: 90%;
+    }
+
+    #main-nav a {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        max-height: 150%;
+        height: 25px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 38px;
+    }
+
+    #main-nav {
+        max-width: 150%;
+        width: 90%;
+        flex-flow: column wrap;
+        gap: 32px;
+        margin-bottom: 62px;
+    }
+
+    #main-nav a {
+        display: flex;
+        text-align: center;
+        padding: 25px 96px;
+        max-height: 150%;
+        height: 25px;
+        width: 77%;
+    }
 }

@@ -1,4 +1,4 @@
-p {
+.asphalt-info {
     display: flex;
     color:  rgb(21, 201, 232);
     background-color: black;
@@ -9,4 +9,26 @@ p {
     max-width: 60%;
     margin: 20px auto;
     box-shadow: 0 0 9px 5px rgb(223, 190, 7);
+}
+
+@media screen and (max-width: 988px) {
+    .asphalt-info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 35px 18px;
+        max-width: 100%;
+        width: 88%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .asphalt-info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 35px 18px;
+        max-width: 100%;
+        width: 88%;
+    }
 }
