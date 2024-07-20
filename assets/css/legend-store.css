@@ -36,3 +36,11 @@ td {
 	padding: 15px 15px 10px 15px;
 	text-wrap: wrap;
 }
+@media screen and (max-width: 464px) {
+	table {
+		margin: 67px auto;
+		max-width: 100%;
+		min-width: 100%;
+		width: 82%;
+	}
+}

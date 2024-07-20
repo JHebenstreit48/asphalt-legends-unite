@@ -40,3 +40,9 @@ td {
 	text-decoration: none;
 	max-width: calc(100%-45);
 }
+
+@media screen and (max-width: 464px) {
+	table {
+		width: 82%;
+	}
+}
