@@ -17,28 +17,30 @@
 
 .car-images-container {
     display: flex;
+    justify-content: center;
     align-items: center;
     margin: 10px auto;
     max-width: 100%;
 }
 
+div .car-images {
+    margin: 0 10px;
+    width: 350px;
+}
+
 .car-images {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
     max-width: 100%;
-    width: 15%;
-    margin: 6px 9px;
 }
 
-ul {
-    text-align: center;
-}
-
-
-.cars {
-    display: inline;
+.car-images-caption {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: white;
-    margin: 10px 40px;
+    font-size: 20px;
 }
 
 
