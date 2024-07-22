@@ -10,53 +10,49 @@
     font-size: 22px;
 }
 
-h2 {
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-#a, #b, #c, #d, #e, #f, #g, #h, #i, #j, #k, #l, #m, #n, #p, #q, #r, #s, #t, #u, #v, #x, #y, #z {
-    margin-left: 16%;
+#a, #b, #c, #d, #e, #f, #g, #h, #i, #j, #k, #l, #m, #n, #p, #q, #r, #s, #t, #u, #v, #x, #w, #z {
+    display: flex;
     font-size: 35px;
-    color:  rgb(21, 201, 232);
+    color: rgb(21, 201, 232);
+    padding-left: 80px;
+    margin-bottom: 10px;
 }
 
 ul {
     display: flex;
-    margin: 15px ;
+    margin: 0 5px;
     text-decoration: none;
     flex-direction: column;
 }
 
 ul li {
- margin-left: 220px;
- color: rgb(223, 190, 7);
- list-style-type: none;
-}
-
-li .car-logos {
     display: flex;
-    width: 82px;
-    float: left;
-    position: relative;
+    color: rgb(223, 190, 7);
+    list-style-type: none;
 }
 
-ul li p {
-    margin-top:30px;
-    margin-left: 25px;
-    font-size: 30px;
+.car-logos {
+    display: flex;
+    width: 55px;
+    height:55px;
+    padding: 0;
+    margin-left: 60px;
+}
+
+.manufacturer-name {
+    display: flex;
+    font-size: 35px;
+    padding-left:5px;
+    margin-top: 10px;
 }
 
 .manufacturer-info {
     display: flex;
-    color:  rgb(21, 201, 232);
+    color: rgb(21, 201, 232);
     background-color: black;
     border: 4px solid rgb(11, 7, 134);
     padding: 12px;
-    justify-content: center;
-    align-items: center;
     max-width: 60%;
-    margin: 20px auto;
     box-shadow: 0 0 9px 5px rgb(223, 190, 7);
 }
 
@@ -66,14 +62,17 @@ ul li p {
         flex-flow: row wrap;
         width: 90%;
     }
+
     ul {
         margin: 0 auto;
         padding: 0;
     }
+
     ul li {
         margin-left: auto;
         margin-right: auto;
     }
+
     ul li p {
         margin: 15px auto;
     }
