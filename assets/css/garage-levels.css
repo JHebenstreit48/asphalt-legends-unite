@@ -143,6 +143,10 @@ div .car-images {
     }
 }
 
+footer {
+    margin: 90px;
+}
+
 @media screen and (max-width: 768px) {
     .garage-levels {
         display: flex;
@@ -204,3 +208,4 @@ div .car-images {
         margin-bottom: 70px;
     }
 }
+
