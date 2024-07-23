@@ -1,12 +1,12 @@
-html {
-    min-height: 100vh;
-    background-image: linear-gradient(to bottom, #25034b 1%, #37097E 42%, #3B0C9D 94%, #3C0B8F 97%, #490DB2 108%, #6212F1 159%);
-    background-size: cover;
-    background-attachment: fixed;
-    box-sizing: border-box;
+body {
+    min-height: 100vh !important;
+    background-image: linear-gradient(to bottom, #25034b 1%, #37097E 42%, #3B0C9D 94%, #3C0B8F 97%, #490DB2 108%, #6212F1 159%) !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+    box-sizing: border-box !important;
 }
 
-h1 {
+.page-heading {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,31 +17,31 @@ h1 {
 }
 
 #main-nav {
-    display: flex;
-    gap: 22px;
-    align-items: center;
-    justify-content: center;
-    margin: 8px auto 50px auto;
-    font-family: "Cinzel Decorative", serif;
-    font-weight: 700;
-    font-style: normal;
+    display: flex !important;
+    gap: 22px !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin: 8px auto 50px auto !important;
+    font-family: "Cinzel Decorative", serif !important;
+    font-weight: 700 !important;
+    font-style: normal !important;
 }
 
-#main-nav a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: rgb(21, 201, 232);
-    text-decoration: none;
-    padding: 15px 20px;
-    flex-wrap: nowrap;
+.navigation-btn {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    color: rgb(21, 201, 232) !important;
+    text-decoration: none !important;
+    padding: 15px 20px !important;
+    flex-wrap: nowrap !important;
     border: 3px solid rgb(11, 7, 134);
     box-shadow: 0 0 7px 4px rgb(223, 190, 7);
     border-radius: 8px;
-    max-width: 220px;
-    width: 140px;
+    max-width: 220px !important;
+    width: 140px !important;
     text-shadow: 2px 3px 3px #45217C;
-    background-image: linear-gradient(to bottom, #25034b 31%, #37097E 69%, #3B0C9D 86%, #3C0B8F 117%, #490DB2 108%, #6212F1 159%);
+    background-image: linear-gradient(to bottom, #25034b 31%, #37097E 69%, #3B0C9D 86%, #3C0B8F 117%, #490DB2 108%, #6212F1 159%) !important;
 }
 
 @media screen and (max-width: 988px) {
