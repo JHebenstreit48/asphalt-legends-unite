@@ -1,3 +1,7 @@
+* {
+    box-sizing: content-box !important;
+}
+
 body {
     min-height: 100vh !important;
     background-image: linear-gradient(to bottom, #25034b 1%, #37097E 42%, #3B0C9D 94%, #3C0B8F 97%, #490DB2 108%, #6212F1 159%) !important;
@@ -43,6 +47,8 @@ body {
     text-shadow: 2px 3px 3px #45217C;
     background-image: linear-gradient(to bottom, #25034b 31%, #37097E 69%, #3B0C9D 86%, #3C0B8F 117%, #490DB2 108%, #6212F1 159%) !important;
 }
+
+
 
 @media screen and (max-width: 988px) {
     h1 {
