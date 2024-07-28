@@ -4,111 +4,112 @@
 
 <head>
 
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- <link rel="stylesheet" href="./assets/css/reset.css" /> -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-        rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-        crossorigin="anonymous">
-  
-    <link rel="stylesheet" href="./assets/css/index.css" />
-    <link rel="stylesheet" href="./assets/css/unite-home.css" />
-    
-    
+  <!-- <link rel="stylesheet" href="./assets/css/reset.css" /> -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="./assets/css/index.css" />
+  <link rel="stylesheet" href="./assets/css/unite-home.css" />
 
 
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap');
-    </style>
 
-    <title>Home</title>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap');
+  </style>
+
+  <title>Home</title>
 
 </head>
 
 <body>
 
-    <header>
+  <header>
 
-        <h1 class="page-heading">Unite</h1>
+    <h1 class="page-heading">Unite</h1>
 
-        <div id="main-nav">
+    <div id="main-nav">
 
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#login">
-                Login
-              </button>
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#login">
+        Login
+      </button>
 
-              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#sign-up">
-                Sign-Up
-              </button>
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#sign-up">
+        Sign-Up
+      </button>
 
-            <a href="index.html" class="navigation-btn">Home</a>
-            <a href="./HTML/manufacturers.html" class="navigation-btn">Manufacturers</a>
-            <a href="./HTML/car-list.html" class="navigation-btn">Models</a>
-            <a href="./HTML/legend-store.html" class="navigation-btn">Legend Store</a>
-            <a href="./HTML/garage-levels.html" class="navigation-btn">Garage Levels</a>
+      <a href="index.html" class="navigation-btn">Home</a>
+      <a href="./HTML/manufacturers.html" class="navigation-btn">Manufacturers</a>
+      <a href="./HTML/car-list.html" class="navigation-btn">Models</a>
+      <a href="./HTML/legend-store.html" class="navigation-btn">Legend Store</a>
+      <a href="./HTML/garage-levels.html" class="navigation-btn">Garage Levels</a>
 
-        </div>
+    </div>
 
-        <!-- Button trigger modal -->
+    <!-- Button trigger modal -->
 
-  
-  <!-- Modal -->
-  <div class="modal fade" id="login" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 
-    <div class="modal-dialog">
+    <!-- Login Modal Start -->
+    <div class="modal fade" id="login" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 
-      <div class="modal-content">
+      <div class="modal-dialog">
 
-        <div class="modal-header">
+        <div class="modal-content">
 
-          <h1 class="modal-title fs-5" id="exampleModalLabel">Login</h1>
-          
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          <div class="modal-header">
 
-        </div>
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Login</h1>
 
-        <div class="modal-body">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 
-          <form>
-            <div class="mb-3">
-              
-              <label for="exampleInputEmail1" class="form-label">Email address</label>
+          </div>
 
-              <input type="email" class="form-control" id="email-input" aria-describedby="emailHelp">
+          <div class="modal-body">
 
-              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            <form>
+              <div class="mb-3">
 
-            </div>
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
 
-            <div class="mb-3">
+                <input type="email" class="form-control" id="email-input" aria-describedby="emailHelp">
 
-              <label for="exampleInputPassword1" class="form-label">Password</label>
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
 
-              <input type="password" class="form-control" id="password-input">
+              </div>
 
-            </div>
+              <div class="mb-3">
 
-            <div class="mb-3 form-check">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
 
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <input type="password" class="form-control" id="password-input">
 
-              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+              </div>
 
-            </div>
+              <div class="mb-3 form-check">
 
-            <button type="submit" class="btn btn-primary">Submit</button>
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
 
-          </form>
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
 
-        </div>
+              </div>
 
-        <div class="modal-footer">
+              <button type="submit" class="btn btn-primary">Submit</button>
 
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </form>
 
-          <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+
+          <div class="modal-footer">
+
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+            <button type="button" class="btn btn-primary">Save changes</button>
+
+          </div>
 
         </div>
 
@@ -116,63 +117,67 @@
 
     </div>
 
-  </div>
+    <!-- Login Modal End -->
 
-  <div class="modal fade" id="sign-up" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <!-- Sign Up Modal Start-->
 
-    <div class="modal-dialog">
+    <div class="modal fade" id="sign-up" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 
-      <div class="modal-content">
+      <div class="modal-dialog">
 
-        <div class="modal-header">
+        <div class="modal-content">
 
-          <h1 class="modal-title fs-5" id="exampleModalLabel">Sign Up</h1>
+          <div class="modal-header">
 
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Sign Up</h1>
 
-        </div>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 
-        <div class="modal-body">
+          </div>
 
-          
-          <form>
+          <div class="modal-body">
 
-            <div class="mb-3">
 
-              <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <form>
 
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div class="mb-3">
 
-              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
 
-            </div>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
 
-            <div class="mb-3">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
 
-              <label for="exampleInputPassword1" class="form-label">Password</label>
+              </div>
 
-              <input type="password" class="form-control" id="exampleInputPassword1">
+              <div class="mb-3">
 
-            </div>
+                <label for="exampleInputPassword1" class="form-label">Password</label>
 
-            <div class="mb-3 form-check">
+                <input type="password" class="form-control" id="exampleInputPassword1">
 
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              </div>
 
-              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+              <div class="mb-3 form-check">
 
-            </div>
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
 
-            <button type="submit" class="btn btn-primary">Submit</button>
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
 
-          </form>
+              </div>
 
-        </div>
-        <div class="modal-footer">
+              <button type="submit" class="btn btn-primary">Submit</button>
 
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </form>
 
-          <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+          <div class="modal-footer">
+
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+            <button type="button" class="btn btn-primary">Save changes</button>
+
+          </div>
 
         </div>
 
@@ -180,45 +185,114 @@
 
     </div>
 
-  </div>
+    <!-- Login Modal End -->
 
-    </header>
+  </header>
 
-    <main>
+  <main>
 
-        </section>
+    </section>
 
-        <section>
+    <section>
 
-            <div>
+      <div>
 
-                <p class="asphalt-info">
-                    Asphalt 9 Legends was first released on July 25th, 2018 and is now called Asphalt Legends Unite as
-                    of July 17th, 2024. It features a wide variety of cars from manufacturers all over the world. The
-                    automotive brands featured in this game range from the more common everyday brands like Chevrolet,
-                    Ford, Nissan, Honda to Luxury and exotic brands such as Lamborghini, Pagani, Ferrari, and much more.
+        <p class="asphalt-info">
+          Asphalt 9 Legends was first released on July 25th, 2018 and is now called Asphalt Legends Unite as
+          of July 17th, 2024. It features a wide variety of cars from manufacturers all over the world. The
+          automotive brands featured in this game range from the more common everyday brands like Chevrolet,
+          Ford, Nissan, Honda to Luxury and exotic brands such as Lamborghini, Pagani, Ferrari, and much more.
 
-                    <br>
-                    <br>
+          <br>
+          <br>
 
-                    Asphalt Legends Unite is available on Xbox One and Xbox Series consoles, Playstation 4 & 5, Steam,
-                    Windows, Nintendo Switch (currently delayed), iOS, Android, Huawei App Gallery, and Galaxy Store .
-                </p>
+          Asphalt Legends Unite is available on Xbox One and Xbox Series consoles, Playstation 4 & 5, Steam,
+          Windows, Nintendo Switch (currently delayed), iOS, Android, Huawei App Gallery, and Galaxy Store .
+        </p>
+
+      </div>
+
+    </section>
 
 
+    <!-- Image Carousel Start -->
+    <section>
+
+      <div>
+
+        <div id="asphalt-carousel-slides" class="carousel slide" data-bs-ride="carousel">
+
+          <div class="carousel-inner">
+
+            <div class="carousel-item active">
+
+              <img src="./assets/images/car-photos/apex-ap-0.jpg" class="d-block w-100" alt="...">
 
             </div>
 
+            <div class="carousel-item">
 
-        </section>
+              <img src="./assets/images/car-photos/lamborghini-sian-fkp-37.jpg" class="d-block w-100" alt="...">
+
+            </div>
+
+            <div class="carousel-item">
+
+              <img src="./assets/images/car-photos/aston-martin-valhalla-concept-car.jpg" class="d-block w-100"
+                alt="...">
+
+            </div>
+
+            <div class="carousel-item">
+
+              <img src="./assets/images/car-photos/pagani-huayra-bc.jpg" class="d-block w-100"
+                alt="...">
+
+                <div class="carousel-item">
+
+                  <img src="./assets/images/car-photos/lamborghini-sesto-elemento.jpg" class="d-block w-100"
+                    alt="...">
+    
+                </div>
+
+                <div class="carousel-item">
+
+                  <img src="./assets/images/car-photos/ferrari-fxx-k.jpg" class="d-block w-100"
+                    alt="...">
+    
+                </div>
+
+                <div class="carousel-item">
+
+                  <img src="./assets/images/car-photos/vanda-electrics-dendrobium.jpg" class="d-block w-100"
+                    alt="...">
+    
+                </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- Image Carousel End -->
 
 
-    </main>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </main>
 
-        <script src="./assets/js/index.js">
-        </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+  <script src="./assets/js/index.js">
+  </script>
+
+  <script src="./assets/js/unite-home.js"></script>
 
 </body>
 
