@@ -10,6 +10,14 @@
     font-size: 22px;
 }
 
+.top-of-page {
+    display: flex;
+    color: white;
+    position: fixed;
+    flex-direction: row-reverse;
+    border: 2px solid rgb(223, 190, 7);
+}
+
 #a, #b, #c, #d, #e, #f, #g, #h, #i, #j, #k, #l, #m, #n, #p, #q, #r, #s, #t, #u, #v, #x, #w, #z {
     display: flex;
     font-size: 35px;
