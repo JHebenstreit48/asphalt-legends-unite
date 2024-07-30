@@ -15,7 +15,16 @@
     color: white;
     position: fixed;
     flex-direction: row-reverse;
-    border: 2px solid rgb(223, 190, 7);
+    box-shadow: 0 0 7px 4px rgb(223, 190, 7);
+    border-radius: 8px;
+    padding: 15px 20px;
+    background-color: black;
+    border: 3px solid rgb(11, 7, 134);
+}
+
+.top-of-page a {
+    color: white;
+    font-weight: bold;
 }
 
 #a, #b, #c, #d, #e, #f, #g, #h, #i, #j, #k, #l, #m, #n, #p, #q, #r, #s, #t, #u, #v, #x, #w, #z {
@@ -36,6 +45,7 @@ ul {
 ul div {
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 ul li {
