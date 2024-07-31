@@ -32,10 +32,7 @@
 
 div .xp-title {
     display: flex;
-    border: 3px solid rgb(11, 7, 134);
-    box-shadow: 0 0 7px 4px rgb(223, 190, 7);
-    border-radius: 8px;
-    width: 92.5%;
+    box-shadow: 0 0 7px 8px rgb(223, 190, 7);
     padding-top: 15px;
     padding-bottom: 15px;
     flex-direction: row;
@@ -44,22 +41,26 @@ div .xp-title {
 .xp-title {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
     color: white;
     font-size: 20px;
-    margin-left: 11px;
-    padding-left: 118px;
+    padding-left: 300px;
     background-color: black;
     flex-wrap: nowrap;
+    border-top: 2px solid rgb(21, 201, 232);
+    border-bottom: 2px solid rgb(21, 201, 232);
+    margin-bottom: 50px;
 }
 
 .xp-requirement {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    margin-right: 140px;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 500px;
     color: white;
     font-size: 20px;
-    margin-left: 1400px;
+    margin-left: 1000px;
 }
 
 .sub-heading {
@@ -67,7 +68,6 @@ div .xp-title {
     margin-top: 20px;
     margin-left: 50px;
     margin-bottom: 35px;
-
     color: rgb(223, 190, 7)
 }
 
@@ -82,7 +82,7 @@ div .xp-title {
 div .car-images {
     margin: 0 10px;
     width: 390px;
-    margin-bottom: 12px;
+    margin-bottom: 30px;
 }
 
 .car-images {
@@ -91,7 +91,8 @@ div .car-images {
     align-items: center;
     max-width: 100%;
     width: 95%;
-    
+    border: 3px solid rgb(0, 0, 0);
+    box-shadow: 0 0 7px 4px rgb(223, 190, 7);
 }
 
 .car-images-caption {
@@ -101,9 +102,9 @@ div .car-images {
     font-size: 20px;
     border: 3px solid rgb(11, 7, 134);
     background-image: linear-gradient(to bottom, #25034b 31%, #37097E 69%, #3B0C9D 86%, #3C0B8F 117%, #490DB2);
-    box-shadow: 0 0 7px 4px rgb(223, 190, 7);
+    box-shadow: 0 0 7px 4px rgb(11, 139, 60);
     border-radius: 8px;
-    width: 77%;
+    width: 79%;
     padding: 10px 15px;
     margin: 0 auto;
     text-align: center;
