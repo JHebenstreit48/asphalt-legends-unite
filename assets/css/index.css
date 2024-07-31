@@ -10,6 +10,13 @@ body {
     box-sizing: border-box !important;
 }
 
+header {
+    background-color: black;
+    height: 182px;
+    margin-bottom: 50px;
+    background-image: linear-gradient(rgb(0, 0, 0) 30%, rgb(119, 93, 7));
+}
+
 .page-heading {
     display: flex;
     justify-content: center;
@@ -18,8 +25,8 @@ body {
     font-family: "Cinzel Decorative", serif;
     font-weight: 700;
     font-style: normal;
-    margin-top: 20px;
     margin-bottom: 20px;
+    padding-top: 22px;
 }
 
 #main-nav {
