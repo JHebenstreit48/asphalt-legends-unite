@@ -4,17 +4,17 @@
 
 body {
     min-height: 100vh !important;
-    background-image: linear-gradient(rgb(10, 4, 81) 44%, rgb(10, 10, 148));
+    background-image: linear-gradient( to top, rgb(33, 7, 94) 44%, rgb(74, 10, 148));
     background-size: cover !important;
     background-attachment: fixed !important;
-    box-sizing: border-box !important;
+    box-sizing: border-box;
 }
 
 header {
-    background-color: black;
     height: 182px;
     margin-bottom: 50px;
-    background-image: linear-gradient(to bottom, #25034b 1%, #37097E 42%, #3B0C9D 94%, #3C0B8F 97%, #490DB2 108%);
+    background-image: linear-gradient(to bottom, #25034b 1%, #37097E 42%, #3B0C9D 94%);
+    box-shadow: 0 0 12px 7px #490DB2;
 }
 
 .page-heading {
@@ -54,7 +54,8 @@ header {
     max-width: 220px !important;
     width: 140px !important;
     text-shadow: 1px 2px 2px #45217C;
-    background-image: linear-gradient(to bottom, #1d4add,#11d5e3 159%) !important;
+    background-image: linear-gradient(to top, #333438,#000000 159%) !important;
+    text-shadow: 2px 2px 4px rgb(21, 201, 232);
 }
 
 #email-input {
@@ -64,9 +65,6 @@ header {
 #password-input {
     width: 85%;
 }
-
-
-
 
 @media screen and (max-width: 988px) {
     h1 {
@@ -90,6 +88,10 @@ header {
 }
 
 @media screen and (max-width: 768px) {
+    header {
+        display: flex;
+        flex-direction: column;
+    }
     h1 {
         display: flex;
         justify-content: center;
@@ -115,14 +117,9 @@ header {
     }
 }
 @media screen and (max-width: 464px) {
-    #main-nav {
-        font-family: "Cinzel Decorative", serif;
-        font-weight: 700;
-        font-style: normal;
-        max-width: 100%;
+    header {
+        height: 506px;
+        margin-bottom: 86px;
     }
-    #main-nav a {
-        width: 76px;
-    }
-
+    
 }

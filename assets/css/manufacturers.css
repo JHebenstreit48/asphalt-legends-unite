@@ -13,18 +13,16 @@
 .top-of-page {
     display: flex;
     color: white;
-    justify-content: center;
     position: fixed;
     flex-direction: row-reverse;
     box-shadow: 0 0 7px 4px rgb(223, 190, 7);
     border-radius: 8px;
-    padding: 18px 20px;
+    padding: 15px 20px;
     background-color: black;
     border: 3px solid rgb(11, 7, 134);
     margin-top: 40px;
     margin-right: 20px;
     right: 30px;
-    
 }
 
 .top-of-page a {
@@ -32,6 +30,8 @@
     font-weight: 800;
     text-decoration: none;
     font-size: 17px;
+    width: 48px;
+    text-align: center;
 }
 
 #a, #b, #c, #d, #e, #f, #g, #h, #i, #j, #k, #l, #m, #n, #p, #q, #r, #s, #t, #u, #v, #x, #w, #z {
