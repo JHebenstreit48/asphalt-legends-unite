@@ -100,9 +100,8 @@ div .car-images {
     justify-content: center;
     color: white;
     font-size: 20px;
-    border: 3px solid rgb(11, 7, 134);
     background-image: linear-gradient(to bottom, #25034b 31%, #37097E 69%, #3B0C9D 86%, #3C0B8F 117%, #490DB2);
-    box-shadow: 0 0 7px 4px rgb(11, 139, 60);
+    box-shadow: 0 0 7px 4px rgb(21, 201, 232);
     border-radius: 8px;
     width: 79%;
     padding: 10px 15px;
@@ -233,6 +232,11 @@ footer {
 }
 
 @media screen and (max-width: 464px) {
+    div #search-bar {
+        margin-bottom: 48px;
+        width: 250px;
+    }
+
     .main-heading {
         width: 100%;
         justify-content: center;
@@ -252,12 +256,13 @@ footer {
     }
     div .car-images {
         max-width: 100%;
-        margin: 0 auto;
-        width: 90%;
+        margin: 0 auto 40px auto;
+        width: 97%;
     }
     .car-images-caption {
-        margin-top: 10px;
         margin-bottom: 70px;
+        border: none;
+        box-shadow: 0 0 7px 4px rgb(21, 201, 232);
     }
 }
 
