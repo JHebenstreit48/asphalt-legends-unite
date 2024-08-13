@@ -3,10 +3,10 @@
 }
 
 body {
-    min-height: 100vh !important;
+    min-height: 100vh;
     background-image: linear-gradient( to top, rgb(33, 7, 94) 44%, rgb(74, 10, 148));
-    background-size: cover !important;
-    background-attachment: fixed !important;
+    background-size: cover;
+    background-attachment: fixed;
     box-sizing: border-box;
 }
 

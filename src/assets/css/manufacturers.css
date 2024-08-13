@@ -7,7 +7,7 @@
 #brand-alphabetical a {
     margin: 10px;
     color: rgb(21, 201, 232);
-    font-size: 22px;
+    font-size: 32px;
 }
 
 .top-of-page {
@@ -36,7 +36,7 @@
 
 #a, #b, #c, #d, #e, #f, #g, #h, #i, #j, #k, #l, #m, #n, #p, #q, #r, #s, #t, #u, #v, #x, #w, #z {
     display: flex;
-    font-size: 35px;
+    font-size: 75px;
     color: rgb(21, 201, 232);
     padding-left: 80px;
     margin-bottom: 10px;
@@ -62,20 +62,39 @@ ul li {
     list-style-type: none;
 }
 
-.car-logos {
-    display: flex;
-    width: 113px;
-    height:120px;
-    padding: 0;
-    margin-left: 60px;
+#acura {
+    width: 10rem;
+    height: 8rem;
+}
+
+#ajlani {
+    width: 9rem;
+    height: 10rem;
+    margin-bottom: 40px;
+}
+
+#alfa {
+    width: 10rem;
+    height: 9rem;
+}
+
+#apex {
+    width: 14rem;
+    height: 8rem;
+}
+
+#apollo {
+    width: 150px;
+    height: 160px;
+    margin-bottom: 35px;
 }
 
 .manufacturer-name {
     display: flex;
-    font-size: 55px;
+    font-size: 78px;
     padding-left: 22px;
     margin-top: 24px;
-    margin-bottom: 55px;
+    margin-bottom: 30px;
 }
 
 .manufacturer-info {
