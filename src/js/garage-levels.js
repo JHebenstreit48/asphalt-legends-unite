@@ -40,6 +40,316 @@ const garageLevels = [
             { src: '../assets/images/car-photos/ginetta-g60.jpg', alt: 'Ginetta G60', caption: 'Ginetta G60' }
         ]
     },
+    {
+        level: 5,
+        xpRequired: 'placeholder',
+        cars: [
+            { src: '../assets/images/car-photos/jaguar-f-type-svr.jpg', alt:'Jaguar F-Type SVR', caption: 'Jaguar F-Type SVR' },
+            { src: '../assets/images/car-photos/aston-martin-db11.jpg', alt: 'Aston Martin DB11', caption: 'Aston Martin DB11' },
+            { src: '../assets/images/car-photos/lotus-elise-sprint-220.jpg', alt: 'Lotus Elise Sprint 220', caption: 'Lotus Elise Sprint 220' },
+            { src: '../assets/images/car-photos/tvr-griffith.jpg', alt: 'TVR Griffith', caption: 'TVR Griffith' }
+        ]
+    },
+    {
+        level: 6,
+        xpRequired: 'placeholder',
+        cars: [
+            { src: '../assets/images/car-photos/bmw-m4-gts.jpg', alt:'BMW M4 GTS', caption: 'BMW M4 GTS' },
+            { src: '../assets/images/car-photos/exotic-rides-w70.jpg', alt: 'Exotic Rides W70', caption: 'Exotic Rides W70' },
+            { src: '../assets/images/car-photos/ford-shelby gt350r.jpg', alt: 'Ford Shelby GT350R', caption: 'Ford Shelby GT350R' },
+            { src: '../assets/images/car-photos/mazda-furai.jpg', alt: 'Mazda Furai', caption: 'Mazda Furai' }
+        ]
+    },
+    {
+        level: 7,
+        xpRequired: 'placeholder',
+        cars: [
+            { src: '../assets/images/car-photos/aston-martin-vulcan.jpg', alt:'Aston Martin Vulcan', caption: 'Aston Martin Vulcan' },
+            { src: '../assets/images/car-photos/dodge-viper-acr.jpg', alt: 'Dodge Viper ACR', caption: 'Dodge Viper ACR' },
+            { src: '../assets/images/car-photos/ford-gt.jpg', alt: 'Ford GT', caption: 'Ford GT' },
+            { src: '../assets/images/car-photos/artega-scalo-superelletra.jpg', alt: 'Artega Scalo Superelletra', caption: 'Artega Scalo Superelletra' }
+        ]
+    },
+    {
+        level: 8,
+        xpRequired: 'placeholder',
+        cars: [
+            { src: '../assets/images/car-photos/ferrari-488-gtb.jpg', alt:'Ferrari 488 GTB', caption: 'Ferrari 488 GTB' },
+            { src: '../assets/images/car-photos/pininfarina-h2-speed.jpg', alt: 'Pininfarina H2 Speed', caption: 'Pininfarina H2 Speed' },
+            { src: '../assets/images/car-photos/nissan-gt-r-nismo.jpg', alt: 'Nissan GT-R Nismo', caption: 'Nissan GT-R Nismo' },
+            { src: '../assets/images/car-photos/italdesign-zerouno.jpg', alt: 'Italdesign Zerouno', caption: 'Italdesign Zerouno' }
+        ]
+    },
+    {
+        level: 9,
+        xpRequired: 'placeholder',
+        cars: [
+            { src: '../assets/images/car-photos/', alt:'', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' }
+        ]
+    },
+    {
+        level: 10,
+        xpRequired: 'placeholder',
+        cars: [
+            { src: '../assets/images/car-photos/', alt:'', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' }
+        ]
+    },
+    {
+        level: 11,
+        xpRequired: 'placeholder',
+        cars: [
+            { src: '../assets/images/car-photos/', alt:'', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' }
+        ]
+    },
+    {
+        level: 12,
+        xpRequired: 'placeholder',
+        cars: [
+            { src: '../assets/images/car-photos/', alt:'', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' }
+        ]
+    },
+    {
+        level: 13,
+        xpRequired: 'placeholder',
+        cars: [
+            { src: '../assets/images/car-photos/', alt:'', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' }
+        ]
+    },
+    {
+        level: 14,
+        xpRequired: 'placeholder',
+        cars: [
+            { src: '../assets/images/car-photos/', alt:'', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' }
+        ]
+    },
+    {
+        level: 15,
+        xpRequired: 'placeholder',
+        cars: [
+            { src: '../assets/images/car-photos/', alt:'', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' }
+        ]
+    },
+    {
+        level: 16,
+        xpRequired: 'placeholder',
+        cars: [
+            { src: '../assets/images/car-photos/', alt:'', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' }
+        ]
+    },
+    {
+        level: 17,
+        xpRequired: 'placeholder',
+        cars: [
+            { src: '../assets/images/car-photos/', alt:'', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' }
+        ]
+    },
+    {
+        level: 18,
+        xpRequired: 'placeholder',
+        cars: [
+            { src: '../assets/images/car-photos/', alt:'', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' }
+        ]
+    },
+    {
+        level: 19,
+        xpRequired: 'placeholder',
+        cars: [
+            { src: '../assets/images/car-photos/', alt:'', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' }
+        ]
+    },
+    {
+        level: 20,
+        xpRequired: 'placeholder',
+        cars: [
+            { src: '../assets/images/car-photos/', alt:'', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' }
+        ]
+    },
+    {
+        level: 21,
+        xpRequired: 'placeholder',
+        cars: [
+            { src: '../assets/images/car-photos/', alt:'', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' }
+        ]
+    },
+    {
+        level: 22,
+        xpRequired: 'placeholder',
+        cars: [
+            { src: '../assets/images/car-photos/', alt:'', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' }
+        ]
+    },
+    {
+        level: 23,
+        xpRequired: 'placeholder',
+        cars: [
+            { src: '../assets/images/car-photos/', alt:'', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' }
+        ]
+    },
+    {
+        level: 24,
+        xpRequired: 'placeholder',
+        cars: [
+            { src: '../assets/images/car-photos/', alt:'', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' }
+        ]
+    },
+    {
+        level: 25,
+        xpRequired: 'placeholder',
+        cars: [
+            { src: '../assets/images/car-photos/', alt:'', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' }
+        ]
+    },
+    {
+        level: 26,
+        xpRequired: 'placeholder',
+        cars: [
+            { src: '../assets/images/car-photos/', alt:'', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' }
+        ]
+    },
+    {
+        level: 27,
+        xpRequired: 'placeholder',
+        cars: [
+            { src: '../assets/images/car-photos/', alt:'', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' }
+        ]
+    },
+    {
+        level: 28,
+        xpRequired: 'placeholder',
+        cars: [
+            { src: '../assets/images/car-photos/', alt:'', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' }
+        ]
+    },
+    {
+        level: 29,
+        xpRequired: 'placeholder',
+        cars: [
+            { src: '../assets/images/car-photos/', alt:'', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' }
+        ]
+    },
+    {
+        level: 30,
+        xpRequired: 'placeholder',
+        cars: [
+            { src: '../assets/images/car-photos/', alt:'', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' }
+        ]
+    },
+    {
+        level: 31,
+        xpRequired: 'placeholder',
+        cars: [
+            { src: '../assets/images/car-photos/', alt:'', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' }
+        ]
+    },
+    {
+        level: 32,
+        xpRequired: 'placeholder',
+        cars: [
+            { src: '../assets/images/car-photos/', alt:'', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' }
+        ]
+    },
+    {
+        level: 33,
+        xpRequired: 'placeholder',
+        cars: [
+            { src: '../assets/images/car-photos/', alt:'', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' }
+        ]
+    },
+    {
+        level: 34,
+        xpRequired: 'placeholder',
+        cars: [
+            { src: '../assets/images/car-photos/', alt:'', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' }
+        ]
+    },
+    {
+        level: 35,
+        xpRequired: 'placeholder',
+        cars: [
+            { src: '../assets/images/car-photos/', alt:'', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' },
+            { src: '../assets/images/car-photos/', alt: '', caption: '' }
+        ]
+    },
     // Add more garage levels as needed
 ];
 // Function to create the garage level sections
