@@ -66,19 +66,21 @@ ul li {
 }
 
 #acura {
-    width: 10rem;
-    height: 8rem;
+    width: 148px;
+    height: 150px;
+    margin-bottom: 45px;
 }
 
 #ajlani {
-    width: 9rem;
-    height: 10rem;
+    width: 140px;
+    height: 152px;
     margin-bottom: 40px;
 }
 
 #alfa {
-    width: 10rem;
-    height: 9rem;
+    width: 140px;
+    height: 150px;
+    margin-bottom: 45px;
 }
 
 #apex {
