@@ -265,50 +265,35 @@ const garageLevels = [
         level: 31,
         xpRequired: 'placeholder',
         cars: [
-            { src: '../assets/images/car-photos/', alt:'', caption: '' },
-            { src: '../assets/images/car-photos/', alt: '', caption: '' },
-            { src: '../assets/images/car-photos/', alt: '', caption: '' },
-            { src: '../assets/images/car-photos/', alt: '', caption: '' }
+            { src: '../assets/images/car-photos/lamborghini-adventador-svj-roadster.jpg', alt:'Lamborghini Aventador SVJ Roadster', caption: 'Lamborghini Aventador SVJ Roadster' }
         ]
     },
     {
         level: 32,
         xpRequired: 'placeholder',
         cars: [
-            { src: '../assets/images/car-photos/', alt:'', caption: '' },
-            { src: '../assets/images/car-photos/', alt: '', caption: '' },
-            { src: '../assets/images/car-photos/', alt: '', caption: '' },
-            { src: '../assets/images/car-photos/', alt: '', caption: '' }
+            { src: '../assets/images/car-photos/mcclaren-speedtail.jpg', alt:'McClaren Speedtail', caption: 'McClaren Speedtail' }
         ]
     },
     {
         level: 33,
         xpRequired: 'placeholder',
         cars: [
-            { src: '../assets/images/car-photos/', alt:'', caption: '' },
-            { src: '../assets/images/car-photos/', alt: '', caption: '' },
-            { src: '../assets/images/car-photos/', alt: '', caption: '' },
-            { src: '../assets/images/car-photos/', alt: '', caption: '' }
+            { src: '../assets/images/car-photos/citroen-gt.jpg', alt:'Citroën GT', caption: 'Citroën GT' }
         ]
     },
     {
         level: 34,
         xpRequired: 'placeholder',
         cars: [
-            { src: '../assets/images/car-photos/', alt:'', caption: '' },
-            { src: '../assets/images/car-photos/', alt: '', caption: '' },
-            { src: '../assets/images/car-photos/', alt: '', caption: '' },
-            { src: '../assets/images/car-photos/', alt: '', caption: '' }
+            { src: '../assets/images/car-photos/aston-martin-victor.jpg', alt:'Aston Martin Victor', caption: 'Aston Martin Victor' }
         ]
     },
     {
         level: 35,
         xpRequired: 'placeholder',
         cars: [
-            { src: '../assets/images/car-photos/', alt:'', caption: '' },
-            { src: '../assets/images/car-photos/', alt: '', caption: '' },
-            { src: '../assets/images/car-photos/', alt: '', caption: '' },
-            { src: '../assets/images/car-photos/', alt: '', caption: '' }
+            { src: '../assets/images/car-photos/ferrari-f8-tributo.jpg', alt:'Ferrari F8 Tributo', caption: 'Ferrari F8 Tributo' }
         ]
     },
     // Add more garage levels as needed
