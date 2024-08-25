@@ -4,7 +4,7 @@
 
 body {
     min-height: 100vh;
-    background-image: linear-gradient( to top, rgb(33, 7, 94) 44%, rgb(74, 10, 148));
+    background-image: linear-gradient(to bottom, rgb(55 19 138) 15%, rgb(120, 32, 220) 34%, rgb(40 5 80) 88%);
     background-size: cover;
     background-attachment: fixed;
     box-sizing: border-box;
@@ -13,7 +13,7 @@ body {
 header {
     height: 182px;
     margin-bottom: 50px;
-    background-image: linear-gradient(to bottom, #25034b 1%, #37097E 42%, #3B0C9D 94%);
+    background-image: linear-gradient(to bottom, #090113 1%, #554e4e 42%, #000000 94%);
     box-shadow: 0 0 12px 7px #490DB2;
 }
 
@@ -21,7 +21,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: rgb(255, 196, 0);
     font-family: "Cinzel Decorative", serif;
     font-weight: 700;
     font-style: normal;
@@ -53,9 +53,8 @@ header {
     border-radius: 5px;
     max-width: 220px !important;
     width: 152px !important;
-    text-shadow: 1px 2px 2px #45217C;
-    background-image: linear-gradient(to top, #333438,#000000 159%) !important;
-    text-shadow: 2px 2px 4px rgb(21, 201, 232);
+    text-shadow: 9px 3px 6px #000000;
+    background-image: linear-gradient(to bottom, #510d71,#9641e0 159%);
 }
 
 #email-input {

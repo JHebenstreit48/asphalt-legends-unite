@@ -32,18 +32,22 @@
 
 .xp {
     display: flex;
+    justify-content: center;
     flex-direction: row;
     white-space: nowrap;
     align-items: center;
+    margin-left: 1000px;
+    margin-right: 1000px;
 }
 
 .xp-title {
     flex-direction: row;
-    color: white;
+    color:  rgb(223, 190, 7);
     font-size: 20px;
-    padding-left: 500px;
     padding-top: 20px;
     padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
     background-color: black;
     flex-wrap: nowrap;
     border-top: 2px solid rgb(21, 201, 232);
@@ -76,7 +80,7 @@
 }
 
 div .car-images {
-    margin: 0 10px;
+    margin: 0 22px;
     width: 390px;
     margin-bottom: 30px;
 }
@@ -103,6 +107,28 @@ div .car-images {
     padding: 10px 15px;
     margin: 0 auto;
     text-align: center;
+}
+
+@media screen and (max-width: 1663px) {
+
+    .main-heading {
+        margin-top: 22px;
+    }
+    .car-images-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 130%;
+        flex-flow: row wrap;
+        width: 73%;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+.car-images-caption {
+    margin-bottom: 80px;
 }
 
 @media screen and (max-width: 1463px) {
