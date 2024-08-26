@@ -2,7 +2,7 @@
 async function loadModules() {
     // Dynamically import the data and search modules
     const { garageLevels } = await import('../js/garage-levels-data.js');
-    const { filterGarageLevels } = await import('../js/garage-levels-search.js');
+    // const { filterGarageLevels } = await import('../js/garage-levels-search.js');
 
     // Function to create the garage levels UI
     function createGarageLevels() {
@@ -49,22 +49,27 @@ async function loadModules() {
     }
 
     // Function to add the search bar functionality
-    function addSearchBar() {
-        const searchBar = document.getElementById('search-bar');
-        searchBar.addEventListener('input', (event) => {
-            filterGarageLevels(event.target.value);
-        });
-    }
+    // function addSearchBar() {
+    //     const searchBar = document.getElementById('search-bar');
+    //     searchBar.addEventListener('input', (event) => {
+    //         filterGarageLevels(event.target.value);
+    //     });
+    // }
 
     // Initialize the page by adding the search bar and creating the garage levels
     function init() {
-        addSearchBar();
+        // addSearchBar();
         createGarageLevels();
     }
 
     // Wait for the DOM to be fully loaded before initializing
-    document.addEventListener('DOMContentLoaded', init);
-}
+    if( document.readyState === 'loading' ){
+        document.addEventListener('DOMContentLoaded', init);
+    } else {
+        init();
+    }
+    
 
 // Load the modules when the script is executed
+}
 loadModules();
