@@ -1,75 +1,56 @@
-// Function to dynamically load the necessary modules
-async function loadModules() {
-    // Dynamically import the data and search modules
-    const { garageLevels } = await import('../js/garage-levels-data.js');
-    // const { filterGarageLevels } = await import('../js/garage-levels-search.js');
+import { garageLevels } from './garage-levels-data.js';
 
-    // Function to create the garage levels UI
-    function createGarageLevels() {
-        const container = document.getElementById('garage-levels-container');
-        if (!container) return;
-
-        garageLevels.forEach(level => {
-            const levelSection = document.createElement('section');
-            levelSection.className = 'garage-levels';
-
-            const headingDiv = document.createElement('div');
-            const mainHeading = document.createElement('h2');
-            mainHeading.className = 'main-heading';
-            mainHeading.textContent = `Garage Level ${level.level}`;
-            const subHeading = document.createElement('h3');
-            subHeading.className = 'sub-heading';
-            subHeading.textContent = 'Cars Available';
-            headingDiv.appendChild(mainHeading);
-            headingDiv.appendChild(subHeading);
-            levelSection.appendChild(headingDiv);
-
-            const carsDiv = document.createElement('div');
-            carsDiv.className = 'cars';
-
-            level.cars.forEach(car => {
-                const carDiv = document.createElement('div');
-                carDiv.className = 'car';
-
-                const img = document.createElement('img');
-                img.src = car.src;
-                img.alt = car.alt;
-
-                const caption = document.createElement('p');
-                caption.textContent = car.caption;
-
-                carDiv.appendChild(img);
-                carDiv.appendChild(caption);
-                carsDiv.appendChild(carDiv);
-            });
-
-            levelSection.appendChild(carsDiv);
-            container.appendChild(levelSection);
+function createGarageLevels() {
+    // Get the container where the garage levels will be appended
+    var container = document.getElementById('garage-levels-container');
+    if (!container)
+        return;
+    // Iterate through each garage level
+    garageLevels.forEach(function (level) {
+        // Create a section for the garage level
+        var levelSection = document.createElement('section');
+        levelSection.className = 'garage-levels';
+        // Create a div for the level heading
+        var headingDiv = document.createElement('div');
+        var mainHeading = document.createElement('h2');
+        mainHeading.className = 'main-heading';
+        mainHeading.textContent = "Garage Level ".concat(level.level);
+        var subHeading = document.createElement('h3');
+        subHeading.className = 'sub-heading';
+        subHeading.textContent = 'Cars Available';
+        headingDiv.appendChild(mainHeading);
+        headingDiv.appendChild(subHeading);
+        // Create a div for the XP requirement
+        var xpDiv = document.createElement('div');
+        xpDiv.className = 'xp';
+        var xpTitle = document.createElement('h3');
+        xpTitle.className = 'xp-title';
+        xpTitle.innerHTML = "<span>XP Required</span><span class=\"xp-requirement\">".concat(level.xpRequired, "</span>");
+        xpDiv.appendChild(xpTitle);
+        // Create a section for the car images
+        var carImagesContainer = document.createElement('section');
+        carImagesContainer.className = 'car-images-container';
+        // Iterate through each car in the level
+        level.cars.forEach(function (car) {
+            var carDiv = document.createElement('div');
+            var carImage = document.createElement('img');
+            carImage.src = car.src;
+            carImage.alt = car.alt;
+            carImage.className = 'car-images';
+            var carCaption = document.createElement('p');
+            carCaption.className = 'car-images-caption';
+            carCaption.textContent = car.caption;
+            carDiv.appendChild(carImage);
+            carDiv.appendChild(carCaption);
+            carImagesContainer.appendChild(carDiv);
         });
-    }
-
-    // Function to add the search bar functionality
-    // function addSearchBar() {
-    //     const searchBar = document.getElementById('search-bar');
-    //     searchBar.addEventListener('input', (event) => {
-    //         filterGarageLevels(event.target.value);
-    //     });
-    // }
-
-    // Initialize the page by adding the search bar and creating the garage levels
-    function init() {
-        // addSearchBar();
-        createGarageLevels();
-    }
-
-    // Wait for the DOM to be fully loaded before initializing
-    if( document.readyState === 'loading' ){
-        document.addEventListener('DOMContentLoaded', init);
-    } else {
-        init();
-    }
-    
-
-// Load the modules when the script is executed
+        // Append the level heading, XP requirement, and car images to the level section
+        levelSection.appendChild(headingDiv);
+        levelSection.appendChild(xpDiv);
+        levelSection.appendChild(carImagesContainer);
+        // Append the level section to the container
+        container.appendChild(levelSection);
+    });
 }
-loadModules();
+// Call the function to create the garage level sections
+createGarageLevels();
