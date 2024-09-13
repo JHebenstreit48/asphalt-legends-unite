@@ -1,10 +1,13 @@
 import { garageLevels } from './garage-levels-data.js';
+import { filterGarageLevels } from './garage-levels-search.js';
 
 function createGarageLevels() {
     // Get the container where the garage levels will be appended
     var container = document.getElementById('garage-levels-container');
-    if (!container)
+    if (!container) {
+        console.error('Container element not found');
         return;
+    }
     // Iterate through each garage level
     garageLevels.forEach(function (level) {
         // Create a section for the garage level
@@ -52,5 +55,16 @@ function createGarageLevels() {
         container.appendChild(levelSection);
     });
 }
-// Call the function to create the garage level sections
-createGarageLevels();
+
+function addSearchBar() {
+    const searchBar = document.getElementById('search-bar');
+    searchBar.addEventListener('input', (event) => {
+        filterGarageLevels(event.target.value);
+    });
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    // Call the function to create the garage level sections
+    createGarageLevels();
+    addSearchBar();
+});

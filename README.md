@@ -1,5 +1,5 @@
 
-  # Asphalt Legends Unite Database
+  # Asphalt Legends Unite
 
   ![Static Badge](https://img.shields.io/badge/License-MIT-yellow)
 
