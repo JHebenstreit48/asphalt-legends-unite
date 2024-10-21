@@ -36,8 +36,6 @@
 .xp {
     display: flex;
     justify-content: center;
-    /* flex-direction: row;
-    white-space: nowrap; */
     align-items: center;
     max-width: 1536px;
     margin: 0 auto;
@@ -47,7 +45,6 @@
     display: flex;
     justify-content: space-evenly;
     width: 100%;
-    /* flex-direction: row; */
     color: rgb(223, 190, 7);
     font-size: 20px;
     padding-top: 20px;
