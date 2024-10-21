@@ -111,7 +111,7 @@ export const garageLevels = [
         cars: [
             { src: '../assets/images/car-photos/ferrari-fxx-k.jpg', alt:'Ferrari FXX K', caption: 'Ferrari FXX K' },
             { src: '../assets/images/car-photos/lamborghini-aventador-sv-coupe.jpg', alt: 'Lamborghini Aventador SV Coupe', caption: 'Lamborghini Aventador SV Coupe' },
-            { src: '../assets/images/car-photos/mclaren-p1.jpg', alt: 'McClaren P1', caption: 'McClaren P1' }
+            { src: '../assets/images/car-photos/mclaren-p1.jpg', alt: 'McLaren P1', caption: 'Mclaren P1' }
         ]
     },
     {
@@ -152,7 +152,7 @@ export const garageLevels = [
         level: 17,
         xpRequired: '2,000,000',
         cars: [
-            { src: '../assets/images/car-photos/mcclaren-570s-spider.jpg', alt:'McLaren 570S Spider', caption: 'McLaren 570S Spider' },
+            { src: '../assets/images/car-photos/mclaren-570s-spider.jpg', alt:'McLaren 570S Spider', caption: 'McLaren 570S Spider' },
             { src: '../assets/images/car-photos/vanda-electrics-dendrobium.jpg', alt: 'Vanda Electrics Dendrobium', caption: 'Vanda Electrics Dendrobium' }
         ]
     },
@@ -224,7 +224,7 @@ export const garageLevels = [
         level: 26,
         xpRequired: '800,000',
         cars: [
-            { src: '../assets/images/car-photos/mcclaren-elva.jpg', alt:'McClaren Elva', caption: 'McClaren Elva' },
+            { src: '../assets/images/car-photos/mclaren-elva.jpg', alt:'mcLaren Elva', caption: 'mcLaren Elva' },
             { src: '../assets/images/car-photos/lamborghini-diablo-gt.jpg', alt: 'Lamborghini Diablo GT', caption: 'Lamborghini Diablo GT' }
         ]
     },
@@ -249,7 +249,7 @@ export const garageLevels = [
         xpRequired: '1,200,000',
         cars: [
             { src: '../assets/images/car-photos/aston-martin-one77.jpg', alt:'Aston Martin One77', caption: 'Aston Martin One77' },
-            { src: '../assets/images/car-photos/mcclaren-senna-gtr.jpg', alt: 'McClaren Senna GTR', caption: 'McClaren Senna GTR' }
+            { src: '../assets/images/car-photos/mclaren-senna-gtr.jpg', alt: 'mcLaren Senna GTR', caption: 'mcLaren Senna GTR' }
         ]
     },
     {
@@ -271,7 +271,7 @@ export const garageLevels = [
         level: 32,
         xpRequired: '1,800,000',
         cars: [
-            { src: '../assets/images/car-photos/mcclaren-speedtail.jpg', alt:'McClaren Speedtail', caption: 'McClaren Speedtail' }
+            { src: '../assets/images/car-photos/mclaren-speedtail.jpg', alt:'mcLaren Speedtail', caption: 'mcLaren Speedtail' }
         ]
     },
     {
@@ -375,7 +375,7 @@ export const garageLevels = [
         xpRequired: '800,000',
         cars: [
             { src: '../assets/images/car-photos/apollo-ie.jpg', alt:'Apollo IE', caption: 'Apollo IE' },
-            { src: '../assets/images/car-photos/mcclaren-gt.jpg', alt:'McClaren GT', caption: 'McClaren GT' }
+            { src: '../assets/images/car-photos/mclaren-gt.jpg', alt:'mcLaren GT', caption: 'mcLaren GT' }
         ]
     },
     {
@@ -399,7 +399,7 @@ export const garageLevels = [
         xpRequired: '1,200,000',
         cars: [
             { src: '../assets/images/car-photos/lotus-evija.jpg', alt:'Lotus Evija', caption: 'Lotus Evija' },
-            { src: '../assets/images/car-photos/mcclaren-765lt.jpg', alt:'McClaren 765LT', caption: 'McClaren 765LT' }
+            { src: '../assets/images/car-photos/mclaren-765lt.jpg', alt:'mcLaren 765LT', caption: 'mcLaren 765LT' }
         ]
     },
     {
@@ -456,7 +456,7 @@ export const garageLevels = [
         level: 57,
         xpRequired: '3,400,000',
         cars: [
-            { src: '../assets/images/car-photos//mcclaren-senna.jpg', alt:'McClaren Senna', caption: 'McClaren Senna' }
+            { src: '../assets/images/car-photos//mclaren-senna.jpg', alt:'mcLaren Senna', caption: 'mcLaren Senna' }
         ]
     },
     {
